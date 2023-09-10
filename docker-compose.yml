@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  ruby:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ruby-lesson
+    tty: true
+    volumes:
+      - ./:/app
