@@ -1,0 +1,13 @@
+{
+  "name": "Ruby lesson",
+  "dockerComposeFile": ["../compose.yaml"],
+  "service": "ruby",
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Shopify.ruby-extensions-pack"
+      ]
+    }
+  }
+}
